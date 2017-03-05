@@ -47,6 +47,9 @@ setClass(
 #' @param overwriteID Boolean, overwrite SNP ids with numbers? Only set to TRUE if the VCF file does not already contain SNP ids 
 #' @export
 vcfLink <- function(vcf_path, meta=NULL, overwriteID=FALSE) {
+  # if file doesn't exist, complain
+  if( !file.exists(vcf_path) )
+    stop("File", vcf_path, "does not exist!")
 	# if meta already exists and is not supplied, load it and issue warning
 	meta_path <- strsplit(vcf_path, ".", fixed=TRUE)[[1]]
 	meta_path <- paste(meta_path[1:length(meta_path)], collapse=".")
