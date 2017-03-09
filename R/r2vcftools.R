@@ -5,7 +5,7 @@
   serr <- tempfile()
 
   cat("Checking for awk ... ")
-  awk <- system2("awk", stderr=serr, stdout=sout)
+  awk <- system2("awk", paste0("'{print $0}' ", sout), stderr=serr, stdout=sout)
   if(awk!=0)
     stop("awk not found!", call. = FALSE)
   cat("OK\n")
