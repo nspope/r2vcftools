@@ -18,7 +18,7 @@ SystemRequirements:
     awk,
     perl,
     vcftools
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 Collate:
     'vcflink.R'
     'conversion.R'

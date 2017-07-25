@@ -20,4 +20,3 @@ GenotypeMatrix(object, ...)
 \description{
 Given a "vcfLink" object, converts the VCF file to genotype matrix format and returns this matrix. See the "--012" flag in the vcftools documentation.
 }
-

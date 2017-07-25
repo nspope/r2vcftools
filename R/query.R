@@ -32,6 +32,9 @@ setMethod("Chrom", "vcfLink", function(object)
 #' @rdname Query
 #' @export
 setGeneric(name="Query", function(object, ...) standardGeneric("Query") )
+
+#' @rdname Query
+#' @export
 setMethod("Query", "vcfLink", function(object, type = c("counts2", "freq2", "site-depth", "site-mean-depth", "geno-depth", "depth", "site-quality", "het", "hardy", "site-pi"), verbose = TRUE)
 	  {
     type <- match.arg(type)

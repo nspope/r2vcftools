@@ -20,4 +20,3 @@ Lfmm(object, ...)
 \description{
 Given a "vcfLink" object, converts the VCF file to the format used by LFMM in package LEA. Involves intermediate creation of a genotype matrix, so only biallelic SNPs are retained.
 }
-

@@ -27,4 +27,3 @@ linkageOptions(min.r2 = NULL, ld.window = NULL, ld.window.bp = NULL,
 \description{
 Given a "vcfLink" object, returns a data frame with pairwise p-values between loci, under the null hypothesis that the loci are not in linkage disequillibrium.
 }
-

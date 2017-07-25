@@ -20,4 +20,3 @@ LfmmEnv(object, ...)
 \description{
 Given a "vcfLink" object, writes given variables in the metadata to a .env file used by LFMM in package LEA.
 }
-

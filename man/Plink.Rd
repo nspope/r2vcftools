@@ -20,4 +20,3 @@ Plink(object, ...)
 \description{
 Given a "vcfLink" object, converts the VCF file to Plink format and returns the locations of the .ped and .map files.
 }
-

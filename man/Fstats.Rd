@@ -20,4 +20,3 @@ Fstats(object, ...)
 \description{
 Given a "vcfLink" object and a list of population IDs, returns a data frame containing pairwise Fst
 }
-

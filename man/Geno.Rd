@@ -20,4 +20,3 @@ Geno(object, ...)
 \description{
 Given a "vcfLink" object, converts the VCF file to genotype matrix format. Doing so involves dropping indels and multiallelic SNPs, so this fuction returns a new vcfLink object that has been appropriately subset.
 }
-

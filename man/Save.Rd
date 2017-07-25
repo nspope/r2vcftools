@@ -18,4 +18,3 @@ Save(object, ...)
 \description{
 Saves the temporary VCF linked to by a vcfLink object to a given filename. Also, saves any sample metadata which is associated with the VCF file.
 }
-

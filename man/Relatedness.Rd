@@ -21,4 +21,3 @@ Relatedness(object, ...)
 \description{
 Given a "vcfLink" object, returns a data frame containing pairwise relatedness coefficients between samples.
 }
-

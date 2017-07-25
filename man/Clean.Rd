@@ -16,4 +16,3 @@ Clean(object, ...)
 \description{
 Sweeps the temporary directory and clears temporary VCF files that are not currently linked to an object.
 }
-

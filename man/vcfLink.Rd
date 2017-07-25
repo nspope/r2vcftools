@@ -16,4 +16,3 @@ vcfLink(vcf_path, meta = NULL, overwriteID = FALSE)
 \description{
 Creates an object of class vcfLink, which acts as an interface to a temporary VCF file. Also loads metadata (if present) associated with the samples.
 }
-

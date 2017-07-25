@@ -18,4 +18,3 @@ LoadMeta(object, ...)
 \description{
 Attaches a dataframe containing sample metadata to a vcfLink object.
 }
-

@@ -28,4 +28,3 @@ filterOptions(min.meanDP = NULL, max.meanDP = NULL, minDP = NULL,
 \description{
 Given a "vcfLink" object, removes loci/samples corresponding to a set of filtering options.
 }
-

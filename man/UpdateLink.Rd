@@ -20,4 +20,3 @@ UpdateLink(object, newlink, ...)
 \description{
 Links a vcfLink to a new temporary path
 }
-

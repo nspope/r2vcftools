@@ -16,4 +16,3 @@ Chrom(object, ...)
 \description{
 Given a "vcfLink" object, returns a data frame with the chromosome (contig), position, and ID of each SNP.
 }
-

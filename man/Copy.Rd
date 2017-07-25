@@ -16,4 +16,3 @@ Copy(object, ...)
 \description{
 Copies a vcfLink object, and creates a copy of the temporary (working) VCF file for it to link to
 }
-

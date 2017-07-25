@@ -23,4 +23,3 @@ Subset(object, ...)
 \description{
 Given a "vcfLink" object, subsets loci/samples to a given vector of sample or site IDs.
 }
-
