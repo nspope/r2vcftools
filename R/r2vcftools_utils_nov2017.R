@@ -2,6 +2,8 @@
 ######################################### r2vcftools utilities ######################################
 #####################################################################################################
 
+# Rodolfo Jaffe, Eder Lanes, et al
+
 # To run this script you need to install VCFtools
 # GitHub: https://github.com/vcftools/vcftools
 # Manual: https://vcftools.github.io/man_latest.html
@@ -10,9 +12,6 @@
 #install.packages("devtools")
 #devtools::install_github("Bioconductor-mirror/LEA", force=T)
 #devtools::install_github("nspope/r2vcftools", force=T)
-
-### Load r2vcftools
-library(r2vcftools)
 
 ### Summary stats
 VCFsummary <- function(snps){

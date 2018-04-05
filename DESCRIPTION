@@ -27,3 +27,4 @@ Collate:
     'fst.R'
     'query.R'
     'r2vcftools.R'
+    'r2vcftools_utils_nov2017.R'
