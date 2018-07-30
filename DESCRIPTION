@@ -19,7 +19,7 @@ SystemRequirements:
     perl,
     vcftools
 RoxygenNote: 6.0.1
-Collate:
+Collate: 
     'vcflink.R'
     'conversion.R'
     'utils.R'
@@ -28,3 +28,4 @@ Collate:
     'query.R'
     'r2vcftools.R'
     'r2vcftools_utils_nov2017.R'
+    'tajima_d.R'

@@ -14,7 +14,8 @@ Filter(object, ...)
 
 filterOptions(min.meanDP = NULL, max.meanDP = NULL, minDP = NULL,
   maxDP = NULL, min.alleles = NULL, max.alleles = NULL, maf = NULL,
-  max.maf = NULL, minQ = NULL, max.missing = NULL, hwe = NULL)
+  max.maf = NULL, minQ = NULL, max.missing = NULL, hwe = NULL,
+  thin = NULL)
 }
 \arguments{
 \item{object}{an object of class "vcfLink"}

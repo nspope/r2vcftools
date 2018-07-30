@@ -50,12 +50,14 @@ filterOptions <- function(min.meanDP = NULL,
 			  max.maf = NULL,
 			  minQ = NULL,
 			  max.missing = NULL,
-			  hwe = NULL){
+			  hwe = NULL,
+        thin = NULL){
 	c("min-meanDP"=min.meanDP, "max-meanDP"=max.meanDP,
 	  "minDP"=minDP, "maxDP"=maxDP,
 	  "min-alleles"=min.alleles, "max-alleles"=max.alleles,
 	  "maf"=maf, "max-maf"=max.maf,
-	  "minQ"=minQ, "max-missing"=max.missing, "hwe"=hwe)
+	  "minQ"=minQ, "max-missing"=max.missing, "hwe"=hwe,
+    "thin"=thin)
 }
 
 #' Subset VCF files 
