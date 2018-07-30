@@ -5,7 +5,7 @@
 \title{Tajima's D}
 \usage{
 TajimaD(object, maf = 0, nboot = 0, nsim = 1000, ploidy = 2,
-  thin_to_one_SNP_per_contig = TRUE, use_vcftools_D = FALSE)
+  use_vcftools_D = FALSE)
 }
 \arguments{
 \item{object}{an object of class "vcfLink"}
@@ -17,8 +17,6 @@ TajimaD(object, maf = 0, nboot = 0, nsim = 1000, ploidy = 2,
 \item{nsim}{the number of simulations from the null model, used to correct bias due to the MAF and to test the significance of D; if 0, no correction is performed}
 
 \item{ploidy}{the ploidy of the organism}
-
-\item{thin_to_one_SNP_per_contig}{if TRUE, thins the data to a single SNP per contig (chromosome ID in the VCF file) prior to calculating D and simulating from the null model.}
 
 \item{use_vcftools_D}{if TRUE, use the method for calculating D implemented in vcftools, which is biased when there is missing data. If FALSE (default), use an unbiased (and faster) method}
 }
