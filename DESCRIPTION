@@ -6,10 +6,8 @@ Description: This package is a wrapper for some filtering/query functionality
     from vcftools (which it requires!), for the truly lazy, like myself, who don't
     like to switch between bash and R to do visualization.
 Depends:
-    R (>= 3.3.2),
-    LEA
+    R (>= 3.3.2)
 Imports:
-    LEA,
     methods
 License: GPL 3.0
 Encoding: UTF-8
